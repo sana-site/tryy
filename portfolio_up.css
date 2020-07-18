@@ -1,0 +1,475 @@
+
+.nav{
+  background-color: black;
+  border: 1px solid white;
+  height:65px;
+  width: 1800px;
+  border: 1px double black;
+  position:fixed
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+.top{
+ background-color:black;
+  color: Purple;
+  font-size: 40px;
+  font-style: bold;
+  font-family: georgia;
+
+}
+
+.typewriter {
+  margin-top:50px;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid White; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .01em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+.alist>ul>li> a:visited{
+  background-color: green
+}
+.alist>ul>li>a:link{
+  color: brown
+}
+.alist>ul>li>a:hover{
+  background-color: orange;
+
+}
+
+.alist>ul>li>a:active{
+  background-color: blue;
+
+}
+
+.alist{
+  height: 50px;
+  width: 75%;
+  background-color:black;
+  border: 1px dash white;
+  display: block;
+  padding: 1px;
+  margin-top: 10px;
+  margin-left:2px;
+  float:right;
+
+}
+.alist>ul>li{
+  display:inline-block;
+  padding-left: 100px;
+  color: green;
+  font-size: 25px;
+  font-family: sans-serif;
+  font-style: italic
+}
+
+.main{
+  height: 590px;
+  width: 100.65%;
+  border: 1px solid black;
+  background-color: ivory;
+  display:block;
+  margin-left: -8px;
+  margin-top: 0px;
+  padding: 3px;
+  background-image: url("images/portfolio_up/try.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position:50% 50%;
+}
+
+.intro{
+  height: 250px;
+   font-style: Impact;
+    font-size: 25px;
+
+  width: 60%;
+  border: 1px solid black;
+  background-color: rgba(20,20,20,0.3);
+  display:block;
+  margin-left: 250px;
+  margin-top: 110px;
+  padding: 3px;
+  text-align: center;
+}
+
+.intro>h1{
+  font-style: Impact;
+  font-size: 65px;
+  color:white
+}
+
+.intro>p{
+  font-style: Impact;
+  font-size: 45px;
+  color:white
+}
+
+.btn{
+  height: 200px;
+  width: 20%;
+background-color: white;
+display: block;
+  padding:20px;
+  margin-left: 510px;
+  margin-top: 0px;
+}
+
+.button{
+  height: 100px;
+  width: 100%;
+  color: Red;
+  background-color: rgba(250,250,2650,0.1);
+  font-size: 50px;
+  font-family: arial;
+  padding:1px;
+
+}
+
+.intro_my{
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 1px dashed black;
+  display: block
+}
+
+.inside{
+  height: 210px;
+  width:60%;
+  background-color: black;
+  margin-right: 80px;
+  margin-top: 110px;
+  border: 1px dashed black;
+  display: block;
+  font-size: 20px;
+  font-family: arial;
+  padding:1px;
+  color: white;
+  float:right
+}
+
+.pic{
+  height: 310px;
+  width:20%;
+  background-color: #FA9F6C;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 1px dashed black;
+  display: block;
+  float:left
+
+}
+.inside>h1{
+  text-align: center;
+  text-decoration: underline;
+  color: purple;
+  font-size: 50px;
+  font-family: arial;
+  font-style: bold
+}
+
+.ins{
+ font-family: georgia;
+  text-align: center;
+  word-spacing:5px;
+  line-height:1;
+  font-size: 20px
+}
+
+.dial{
+  font-family: sans-serif;
+  color:yellow;
+  word-spacing: 3px;
+  line-height:1;
+  text-indent: 10px;
+  text-align: center
+}
+
+.proj{
+  height: 1780px;
+  width:100%;
+  background-color: #EC6118;
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 1px dashed black;
+  display: block;
+  background-image: url("images/portfolio_up/try2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.title_proj{
+  height: 100px;
+  width:35%;
+  background-color: rgba(0,0,0,0);
+  margin-left: 420px;
+  margin-top: 20px;
+  border: 1px solid rgba(0,0,0,0);
+   display: block;
+  color: white;
+  text-align: center;
+  padding: 2px
+}
+
+.title_proj>h1{
+    font-family: serif;
+    font-size: 80px
+}
+.first{
+  height: 385px;
+  width:98%;
+  background-color: #E7F8F8;
+  margin-left: 12px;
+  margin-top: 20px;
+  border: 1px solid black;
+  display: block;
+  padding-top: 2px;
+  padding-right: 5px
+}
+
+
+.first>img{
+  float:right
+}
+
+.first1{
+  height: 385px;
+  width:98%;
+  background-color: #E7F8F8;
+  margin-left: 12px;
+  margin-top: 20px;
+  border: 1px solid black;
+  display: block;
+  padding-top: 2px;
+  padding-right: 5px
+}
+.first1>img{
+  float:left
+}
+
+.first>p{
+  font-size: 80px;
+  color: Maroon;
+  font-family: times;
+  text-align: center;
+  margin-top: 70px;
+  font-style:bold
+}
+
+.first1>p{
+  font-size: 80px;
+  color: Maroon;
+  font-family: times;
+  text-align: center;
+  margin-top: 70px;
+  font-style:bold
+}
+
+.anc{
+  font-size:  20px;
+  color: blue;
+  font-style: underline;
+  text-align: center;
+}
+.skill{
+  height: 400px;
+  width: 100%;
+  background-color: white;
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 1px dashed ivory;
+  display: block
+}
+.skill>h1{
+height: 100px;
+width:35%;
+background-color: rgba(0,0,0,0);
+margin-left: 400px;
+margin-top: 20px;
+border: 1px solid rgba(0,0,0,0);
+ display: block;
+color:Purple;
+text-align: center;
+padding: 0px;
+font-style: bold;
+font-family: georgia;
+font-size: 60px
+}
+.sk>li{
+  display:inline-block;
+  height: 80px;
+  width: 380px;
+  border: 1px solid black;
+  padding-left: 25px;
+  padding-top: 15px;
+  margin-left: 6px;
+  margin-top:15px;
+  background-color: black;
+  color: orange;
+  font-style: italic;
+  font-family: georgia;
+  font-size: 25px;
+  text-align: center;
+}
+
+.tal{
+  height: 450px;
+  width: 100%;
+  background-color: #F38E59;
+  margin-left: 0px;
+  margin-top: 0px;
+  border: 1px dashed ivory;
+  display: block;
+  background-image: url("images/portfolio_up/try3.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tal>h1{
+height: 100px;
+width:55%;
+background-color: rgba(0,0,0,0);
+margin-left: 300px;
+margin-top: 20px;
+border: 1px solid rgba(0,0,0,0);
+ display: block;
+color:Ivory;
+text-align: center;
+padding: 0px;
+font-style: bold;
+font-family: georgia;
+font-size: 60px;
+
+}
+.new>li{
+display:inline-block;
+height: 80px;
+width: 380px;
+border: 1px solid black;
+padding-left: 25px;
+padding-top: 15px;
+margin-left: 6px;
+margin-top:15px;
+background-color: #63EAED;
+color: white;
+font-style: italic;
+font-family: georgia;
+font-size: 25px;
+text-align: center;
+}
+
+footer{
+  height: 280px;
+  width: 100%;
+  border: 1px solid black;
+  padding-left: 0px;
+  padding-top: 0px;
+  margin-left: 0px;
+  margin-top:0px;
+  background-color: black;
+
+}
+h3{
+  color: white;
+  font-style: italic;
+  font-family: georgia;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid black;
+  padding-left: 25px;
+  padding-top: 15px;
+  margin-left: 10px;
+  margin-top:5px;
+}
+footer>h3>ul>li{
+  display:block;
+  height: 40px;
+  width: 400px;
+  border: 1px solid black;
+  padding-left: 25px;
+  padding-top: 15px;
+  margin-left:350px;
+  margin-top:-5px;
+  background-color: grey;
+  color: white;
+  font-style: italic;
+  font-family: georgia;
+  font-size: 15px;
+  text-align: center;
+  }
+
+  footer>h3>img{
+    display:inline-block;
+    border: 1px solid black;
+    margin-left:10px;
+    margin-top:5px;
+
+  }
+
+  div7{
+     display: inline-block;
+     height: 18px;
+     width: 100%;
+     background-color: black;
+     border: 2px double black;
+     margin-left: -50px;
+     margin-top: 15px;
+     padding-bottom: 0px;
+     padding-left: 0px
+
+  }
+  .para{
+    color: #52ACBD;
+    text-decoration: underline;
+    font-size: 15px;
+    font-style: bold;
+    font-family: arial;
+    text-align: left;
+  }
